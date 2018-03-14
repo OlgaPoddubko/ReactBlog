@@ -2,12 +2,12 @@ import React from 'react';
 
 const HomePage = () => (
   <div>
-    <h2>You are welcome to HomePage</h2>
+    <h2>You are welcome to HomePage!</h2>
     <p>To view blog clock Blog</p>
     <style jsx>{`
-    div{
+      h2, p{
         text-align: center;
-        padding: 20px 0;
+        margin: 10px 0;
       }
     `}
       </style>

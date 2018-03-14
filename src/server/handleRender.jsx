@@ -11,7 +11,6 @@ function renderFullPage(html) {
 			<head>
 				<meta charset=utf-8>
 				<title>React SSR</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
 			</head>
 			<body>
 				<div id="root">${html}</div>
@@ -28,7 +27,7 @@ function handleRender(req, res) {
 
 	const app = (
 		<StaticRouter location={req.url} context={context} >
-			<App name ="World" />
+			<App name ="Pavel" />
 		</StaticRouter>
 	);
 
